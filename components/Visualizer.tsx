@@ -193,7 +193,7 @@ const Visualizer = forwardRef<VisualizerHandle, VisualizerProps>(({ blockHeight,
       const centerX = canvas.width / 2;
       ctx.textAlign = 'center';
       
-      ctx.font = 'bold 48px Orbitron';
+      ctx.font = 'bold 32px Orbitron';
       const logoGrad = ctx.createLinearGradient(centerX - 200, 0, centerX + 200, 0);
       logoGrad.addColorStop(0, '#4ade80');
       logoGrad.addColorStop(0.5, '#facc15');
@@ -201,7 +201,7 @@ const Visualizer = forwardRef<VisualizerHandle, VisualizerProps>(({ blockHeight,
       ctx.fillStyle = logoGrad;
       ctx.shadowBlur = 15;
       ctx.shadowColor = 'rgba(0,0,0,0.5)';
-      ctx.fillText('MEMPOOL.FM', centerX, 60);
+      ctx.fillText('MEMPOOL.RADIO', centerX, 60);
       
       ctx.font = '13px Share Tech Mono';
       ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';

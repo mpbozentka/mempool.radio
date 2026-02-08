@@ -203,8 +203,8 @@ const App: React.FC = () => {
       {!state.isAudioStarted && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/80 backdrop-blur-3xl z-50 p-6 text-center">
           <div className="max-w-3xl flex flex-col items-center">
-            <h1 className="text-8xl md:text-9xl font-black text-white mb-12 logo-font tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-green-400 via-yellow-400 to-red-600 drop-shadow-[0_0_30px_rgba(34,197,94,0.3)]">
-              MEMPOOL.FM
+            <h1 className="text-5xl md:text-6xl font-black text-white mb-12 logo-font tracking-tighter bg-clip-text text-transparent bg-gradient-to-br from-green-400 via-yellow-400 to-red-600 drop-shadow-[0_0_30px_rgba(34,197,94,0.3)]">
+              MEMPOOL.RADIO
             </h1>
             <p className="text-gray-300 mb-16 leading-relaxed font-light text-2xl md:text-3xl max-w-xl mx-auto opacity-90">
               The natural mystic of the Bitcoin chain. 
