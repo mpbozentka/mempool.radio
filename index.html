@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mempool.fm - Bitcoin Sonification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0a0510;
+            font-family: 'Share Tech Mono', monospace;
+            color: #e0e0e0;
+        }
+        .logo-font {
+            font-family: 'Orbitron', sans-serif;
+        }
+        @keyframes status-glow {
+            0%, 100% { opacity: 0.6; transform: scale(0.9); box-shadow: 0 0 5px currentColor; }
+            50% { opacity: 1; transform: scale(1.1); box-shadow: 0 0 15px currentColor; }
+        }
+        .animate-status-glow {
+            animation: status-glow 2s infinite ease-in-out;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

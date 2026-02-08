@@ -1,0 +1,5 @@
+{
+  "name": "Mempool.fm",
+  "description": "A real-time Bitcoin mempool visualizer and sonifier that turns live transactions into an ambient cyberpunk audio-visual experience.",
+  "requestFramePermissions": []
+}
